@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D. Sai Kumar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>D. Sai Kumar</h1>
+            <p>Aspiring Developer | AWS Enthusiast | Cloud Computing Specialist</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate software engineer with a strong foundation in programming, cloud computing, 
+                and data structures. Currently pursuing my final year of B.Tech at Rajeev Gandhi Memorial College 
+                of Engineering and Technology with a CGPA of 7.6.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Java, Python, HTML, CSS</li>
+                <li>IT Constructs: Data Structures (Basic), OOPS, Cloud Computing</li>
+                <li>Database: MySQL</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <h3>Detecting Human Driver Drowsiness</h3>
+            <p>
+                A drowsiness detection system leveraging SVM, KNN, DT, and Naive Bayes algorithms to enhance road safety. 
+                <br> Achieved high accuracies: SVM (88%), DT (86.9%), KNN (80.8%).
+                <br> Goal: Reduce accidents by monitoring driver alertness.
+            </p>
+        </div>
+    </section>
+
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2>Certifications</h2>
+            <ul>
+                <li>NPTEL Certification: Introduction to Internet of Things and Social Networks</li>
+                <li>Microsoft Azure Developer Associate (AZ-204)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:dsaikumar944@gmail.com">dsaikumar944@gmail.com</a></p>
+            <p>Phone: +91 - 8074244566</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/dsasikumar/" target="_blank">linkedin.com/in/dsasikumar/</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Copyright © 2025 D. Sai Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
